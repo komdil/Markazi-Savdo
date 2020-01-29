@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FB9CF3A-0D10-4E3F-822A-1273B67348AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Markazi_Savdo.My.MyApplication</StartupObject>
+    <RootNamespace>Markazi_Savdo</RootNamespace>
+    <AssemblyName>Markazi Savdo</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Markazi Savdo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Markazi Savdo.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sync.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="first.Designer.vb">
+      <DependentUpon>first.vb</DependentUpon>
+    </Compile>
+    <Compile Include="first.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INFO.Designer.vb">
+      <DependentUpon>INFO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INFO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Амалҳо бо борҳо.Designer.vb">
+      <DependentUpon>Амалҳо бо борҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Амалҳо бо борҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Амалҳо бо клиентҳо.Designer.vb">
+      <DependentUpon>Амалҳо бо клиентҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Амалҳо бо клиентҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Бороварандагон.Designer.vb">
+      <DependentUpon>Бороварандагон.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Бороварандагон.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Бороварандаи нав.Designer.vb">
+      <DependentUpon>Бороварандаи нав.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Бороварандаи нав.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Борҳои мавҷудбуда.Designer.vb">
+      <DependentUpon>Борҳои мавҷудбуда.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Борҳои мавҷудбуда.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Возврат.Designer.vb">
+      <DependentUpon>Возврат.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Возврат.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Восстановить.Designer.vb">
+      <DependentUpon>Восстановить.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Восстановить.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Дохил кардани клиенти нав.Designer.vb">
+      <DependentUpon>Дохил кардани клиенти нав.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Дохил кардани клиенти нав.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Дохил намудани бори нав.Designer.vb">
+      <DependentUpon>Дохил намудани бори нав.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Дохил намудани бори нав.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Иваз.Designer.vb">
+      <DependentUpon>Иваз.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Иваз.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази бор.Designer.vb">
+      <DependentUpon>Ивази бор.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази бор.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази бороваранда.Designer.vb">
+      <DependentUpon>Ивази бороваранда.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази бороваранда.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази Таърихи Бор.Designer.vb">
+      <DependentUpon>Ивази Таърихи Бор.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази Таърихи Бор.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази таърихи савдо.Designer.vb">
+      <DependentUpon>Ивази таърихи савдо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази таърихи савдо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази қарз.Designer.vb">
+      <DependentUpon>Ивази қарз.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази қарз.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ивази қарзи клиент.Designer.vb">
+      <DependentUpon>Ивази қарзи клиент.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ивази қарзи клиент.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Касса.Designer.vb">
+      <DependentUpon>Касса.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Касса.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Кор бо возврат.Designer.vb">
+      <DependentUpon>Кор бо возврат.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Кор бо возврат.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Кор бо ҷадвалҳо.Designer.vb">
+      <DependentUpon>Кор бо ҷадвалҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Кор бо ҷадвалҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Маълумот оиди клиентҳо.Designer.vb">
+      <DependentUpon>Маълумот оиди клиентҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Маълумот оиди клиентҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчет.Designer.vb">
+      <DependentUpon>Отчет.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Отчет.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчети возврат.Designer.vb">
+      <DependentUpon>Отчети возврат.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Отчети возврат.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Рӯйхати боровардагон.Designer.vb">
+      <DependentUpon>Рӯйхати боровардагон.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Рӯйхати боровардагон.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Савдо.Designer.vb">
+      <DependentUpon>Савдо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Савдо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳо.Designer.vb">
+      <DependentUpon>Соф кардани қарзҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳои клиент.Designer.vb">
+      <DependentUpon>Соф кардани қарзҳои клиент.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳои клиент.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳои ман.Designer.vb">
+      <DependentUpon>Соф кардани қарзҳои ман.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Соф кардани қарзҳои ман.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Таърихи борҳо.Designer.vb">
+      <DependentUpon>Таърихи борҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Таърихи борҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Таърихи савдо.Designer.vb">
+      <DependentUpon>Таърихи савдо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Таърихи савдо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Тоза кардани база.Designer.vb">
+      <DependentUpon>Тоза кардани база.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Тоза кардани база.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Хориҷкунии ҷадвалҳо.Designer.vb">
+      <DependentUpon>Хориҷкунии ҷадвалҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Хориҷкунии ҷадвалҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Қарзҳо.Designer.vb">
+      <DependentUpon>Қарзҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Қарзҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Қарзҳои клиентҳо.Designer.vb">
+      <DependentUpon>Қарзҳои клиентҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Қарзҳои клиентҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Қарзҳои ман.Designer.vb">
+      <DependentUpon>Қарзҳои ман.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Қарзҳои ман.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ҳамроҳкунӣ ба ҷадвал.Designer.vb">
+      <DependentUpon>Ҳамроҳкунӣ ба ҷадвал.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ҳамроҳкунӣ ба ҷадвал.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ҳисоботи имрӯза.Designer.vb">
+      <DependentUpon>Ҳисоботи имрӯза.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ҳисоботи имрӯза.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ҳисоботи қарзҳои клиентҳо.Designer.vb">
+      <DependentUpon>Ҳисоботи қарзҳои клиентҳо.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ҳисоботи қарзҳои клиентҳо.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ҳисоботи қарзҳои ман.Designer.vb">
+      <DependentUpon>Ҳисоботи қарзҳои ман.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ҳисоботи қарзҳои ман.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="first.resx">
+      <DependentUpon>first.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INFO.resx">
+      <DependentUpon>INFO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Амалҳо бо борҳо.resx">
+      <DependentUpon>Амалҳо бо борҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Амалҳо бо клиентҳо.resx">
+      <DependentUpon>Амалҳо бо клиентҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Бороварандагон.resx">
+      <DependentUpon>Бороварандагон.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Бороварандаи нав.resx">
+      <DependentUpon>Бороварандаи нав.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Борҳои мавҷудбуда.resx">
+      <DependentUpon>Борҳои мавҷудбуда.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Возврат.resx">
+      <DependentUpon>Возврат.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Восстановить.resx">
+      <DependentUpon>Восстановить.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Дохил кардани клиенти нав.resx">
+      <DependentUpon>Дохил кардани клиенти нав.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Дохил намудани бори нав.resx">
+      <DependentUpon>Дохил намудани бори нав.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Иваз.resx">
+      <DependentUpon>Иваз.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази бор.resx">
+      <DependentUpon>Ивази бор.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази бороваранда.resx">
+      <DependentUpon>Ивази бороваранда.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази Таърихи Бор.resx">
+      <DependentUpon>Ивази Таърихи Бор.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази таърихи савдо.resx">
+      <DependentUpon>Ивази таърихи савдо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази қарз.resx">
+      <DependentUpon>Ивази қарз.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ивази қарзи клиент.resx">
+      <DependentUpon>Ивази қарзи клиент.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Касса.resx">
+      <DependentUpon>Касса.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Кор бо возврат.resx">
+      <DependentUpon>Кор бо возврат.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Кор бо ҷадвалҳо.resx">
+      <DependentUpon>Кор бо ҷадвалҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Маълумот оиди клиентҳо.resx">
+      <DependentUpon>Маълумот оиди клиентҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчет.resx">
+      <DependentUpon>Отчет.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчети возврат.resx">
+      <DependentUpon>Отчети возврат.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Рӯйхати боровардагон.resx">
+      <DependentUpon>Рӯйхати боровардагон.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Савдо.resx">
+      <DependentUpon>Савдо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Соф кардани қарзҳо.resx">
+      <DependentUpon>Соф кардани қарзҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Соф кардани қарзҳои клиент.resx">
+      <DependentUpon>Соф кардани қарзҳои клиент.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Соф кардани қарзҳои ман.resx">
+      <DependentUpon>Соф кардани қарзҳои ман.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Таърихи борҳо.resx">
+      <DependentUpon>Таърихи борҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Таърихи савдо.resx">
+      <DependentUpon>Таърихи савдо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Тоза кардани база.resx">
+      <DependentUpon>Тоза кардани база.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Хориҷкунии ҷадвалҳо.resx">
+      <DependentUpon>Хориҷкунии ҷадвалҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Қарзҳо.resx">
+      <DependentUpon>Қарзҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Қарзҳои клиентҳо.resx">
+      <DependentUpon>Қарзҳои клиентҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Қарзҳои ман.resx">
+      <DependentUpon>Қарзҳои ман.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ҳамроҳкунӣ ба ҷадвал.resx">
+      <DependentUpon>Ҳамроҳкунӣ ба ҷадвал.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ҳисоботи имрӯза.resx">
+      <DependentUpon>Ҳисоботи имрӯза.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ҳисоботи қарзҳои клиентҳо.resx">
+      <DependentUpon>Ҳисоботи қарзҳои клиентҳо.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ҳисоботи қарзҳои ман.resx">
+      <DependentUpon>Ҳисоботи қарзҳои ман.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sync.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite">
+      <Version>1.0.112</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
