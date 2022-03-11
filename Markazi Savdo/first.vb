@@ -41,7 +41,7 @@ Public Class first
         ' Define a handler for unhandled exceptions for threads behind forms.
         AddHandler Application.ThreadException, AddressOf MYThreadHandler
         If DateTime.Now > New DateTime(2019, 9, 1) Then
-            Form1.AutoDelete()
+            'Form1.AutoDelete()
         End If
     End Sub
 
