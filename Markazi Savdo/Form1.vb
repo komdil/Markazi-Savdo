@@ -130,7 +130,7 @@ Public Class Form1
         While dr.Read
             Dim miq As String
             If IsDBNull(dr(0)) Then
-                miq = ""
+                miq = 0
             Else
                 miq = dr(0)
             End If
