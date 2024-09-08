@@ -52,9 +52,10 @@ Partial Class Form1
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 17.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(347, 217)
+        Me.Button1.Location = New System.Drawing.Point(520, 334)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(218, 138)
+        Me.Button1.Size = New System.Drawing.Size(327, 212)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Борҳо"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -67,11 +68,12 @@ Partial Class Form1
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button2.Location = New System.Drawing.Point(347, 73)
+        Me.Button2.Location = New System.Drawing.Point(520, 112)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(218, 138)
+        Me.Button2.Size = New System.Drawing.Size(327, 212)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Мизоҷон"
+        Me.Button2.Text = "Клиентҳо"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -82,9 +84,10 @@ Partial Class Form1
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button3.Location = New System.Drawing.Point(795, 73)
+        Me.Button3.Location = New System.Drawing.Point(1192, 112)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(218, 138)
+        Me.Button3.Size = New System.Drawing.Size(327, 212)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Қарзҳо"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -97,11 +100,12 @@ Partial Class Form1
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button4.Location = New System.Drawing.Point(571, 73)
+        Me.Button4.Location = New System.Drawing.Point(856, 112)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(218, 138)
+        Me.Button4.Size = New System.Drawing.Size(327, 212)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Таҳвилгарон"
+        Me.Button4.Text = "Поставшикҳо"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.UseVisualStyleBackColor = False
         '
@@ -112,9 +116,10 @@ Partial Class Form1
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button5.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button5.Location = New System.Drawing.Point(123, 217)
+        Me.Button5.Location = New System.Drawing.Point(184, 334)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(218, 138)
+        Me.Button5.Size = New System.Drawing.Size(327, 212)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Савдо"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -127,9 +132,10 @@ Partial Class Form1
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button6.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button6.Location = New System.Drawing.Point(123, 361)
+        Me.Button6.Location = New System.Drawing.Point(184, 555)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(218, 138)
+        Me.Button6.Size = New System.Drawing.Size(327, 212)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "Таърихи савдо"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -142,9 +148,10 @@ Partial Class Form1
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button7.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button7.Location = New System.Drawing.Point(793, 505)
+        Me.Button7.Location = New System.Drawing.Point(1190, 777)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(218, 138)
+        Me.Button7.Size = New System.Drawing.Size(327, 212)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Баромад"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -157,9 +164,10 @@ Partial Class Form1
         Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button8.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button8.Location = New System.Drawing.Point(571, 505)
+        Me.Button8.Location = New System.Drawing.Point(856, 777)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(218, 138)
+        Me.Button8.Size = New System.Drawing.Size(327, 212)
         Me.Button8.TabIndex = 7
         Me.Button8.Text = "Info"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -172,9 +180,10 @@ Partial Class Form1
         Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button9.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button9.Location = New System.Drawing.Point(347, 361)
+        Me.Button9.Location = New System.Drawing.Point(520, 555)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(218, 138)
+        Me.Button9.Size = New System.Drawing.Size(327, 212)
         Me.Button9.TabIndex = 8
         Me.Button9.Text = "Ҳисоботи ҳаррӯза"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -187,9 +196,10 @@ Partial Class Form1
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button10.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button10.Location = New System.Drawing.Point(347, 505)
+        Me.Button10.Location = New System.Drawing.Point(520, 777)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(218, 138)
+        Me.Button10.Size = New System.Drawing.Size(327, 212)
         Me.Button10.TabIndex = 9
         Me.Button10.Text = "Нусха гирифтани базаи маълумот"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -202,9 +212,10 @@ Partial Class Form1
         Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button11.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button11.Location = New System.Drawing.Point(123, 505)
+        Me.Button11.Location = New System.Drawing.Point(184, 777)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(218, 138)
+        Me.Button11.Size = New System.Drawing.Size(327, 212)
         Me.Button11.TabIndex = 10
         Me.Button11.Text = "Тоза кардани база"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -217,9 +228,10 @@ Partial Class Form1
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button12.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button12.Location = New System.Drawing.Point(571, 361)
+        Me.Button12.Location = New System.Drawing.Point(856, 555)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(218, 138)
+        Me.Button12.Size = New System.Drawing.Size(327, 212)
         Me.Button12.TabIndex = 11
         Me.Button12.Text = "Кор бо ҷадвалҳо"
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -232,9 +244,10 @@ Partial Class Form1
         Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button13.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button13.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button13.Location = New System.Drawing.Point(794, 217)
+        Me.Button13.Location = New System.Drawing.Point(1191, 334)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(218, 138)
+        Me.Button13.Size = New System.Drawing.Size(327, 212)
         Me.Button13.TabIndex = 12
         Me.Button13.Text = "Ҳисобот аз 2 база"
         Me.Button13.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -247,9 +260,10 @@ Partial Class Form1
         Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button14.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button14.Location = New System.Drawing.Point(571, 217)
+        Me.Button14.Location = New System.Drawing.Point(856, 334)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(218, 138)
+        Me.Button14.Size = New System.Drawing.Size(327, 212)
         Me.Button14.TabIndex = 13
         Me.Button14.Text = "Возврат"
         Me.Button14.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -262,9 +276,10 @@ Partial Class Form1
         Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button15.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button15.Location = New System.Drawing.Point(794, 361)
+        Me.Button15.Location = New System.Drawing.Point(1191, 555)
+        Me.Button15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(217, 138)
+        Me.Button15.Size = New System.Drawing.Size(326, 212)
         Me.Button15.TabIndex = 14
         Me.Button15.Text = "Восстановить"
         Me.Button15.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -281,9 +296,10 @@ Partial Class Form1
         Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button16.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button16.Font = New System.Drawing.Font("Monotype Corsiva", 17.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Button16.Location = New System.Drawing.Point(123, 73)
+        Me.Button16.Location = New System.Drawing.Point(184, 112)
+        Me.Button16.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(218, 138)
+        Me.Button16.Size = New System.Drawing.Size(327, 212)
         Me.Button16.TabIndex = 15
         Me.Button16.Text = "Касса"
         Me.Button16.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -308,23 +324,26 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Button12)
         Me.GroupBox1.Controls.Add(Me.Button6)
         Me.GroupBox1.Controls.Add(Me.Button9)
-        Me.GroupBox1.Location = New System.Drawing.Point(116, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(174, 18)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1131, 717)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox1.Size = New System.Drawing.Size(1696, 1103)
         Me.GroupBox1.TabIndex = 16
         Me.GroupBox1.TabStop = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.ClientSize = New System.Drawing.Size(1924, 1050)
         Me.Controls.Add(Me.GroupBox1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "БАРНОМАИ МАРКАЗИ САВДО"
